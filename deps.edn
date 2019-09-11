@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps  {com.taoensso/encore {:mvn/version "2.115.0"}
+         clojure.java-time   {:mvn/version "0.3.2"}
+         noprompt/meander    {:git/url "https://github.com/noprompt/meander"
+                              :sha     "36fed3e3037b7429bfac1cb86a24ec952b1d26e9"}}}

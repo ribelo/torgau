@@ -1,5 +1,7 @@
-{:paths ["src"]
+{:paths ["src/main" "src/dev"]
  :deps  {com.taoensso/encore {:mvn/version "2.115.0"}
          clojure.java-time   {:mvn/version "0.3.2"}
+         ribelo/oyeblikk     {:git/url "https://github.com/ribelo/oyeblikk"
+                              :sha     "dc18506af6f74c99b55d88d3b2507c4c7319834a"}
          noprompt/meander    {:git/url "https://github.com/noprompt/meander"
                               :sha     "36fed3e3037b7429bfac1cb86a24ec952b1d26e9"}}}
